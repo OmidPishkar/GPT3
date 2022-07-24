@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(
+        305deg,
+        hsl(211deg 100% 16%) 0%,
+        hsl(211deg 96% 15%) 4%,
+        hsl(212deg 91% 14%) 9%,
+        hsl(212deg 86% 13%) 15%,
+        hsl(212deg 80% 12%) 21%,
+        hsl(213deg 74% 11%) 28%,
+        hsl(214deg 67% 9%) 36%,
+        hsl(215deg 63% 8%) 43%,
+        hsl(215deg 66% 6%) 51%,
+        hsl(215deg 66% 6%) 58%,
+        hsl(215deg 63% 8%) 65%,
+        hsl(214deg 67% 9%) 72%,
+        hsl(213deg 74% 11%) 78%,
+        hsl(212deg 80% 12%) 83%,
+        hsl(212deg 86% 13%) 88%,
+        hsl(212deg 91% 14%) 93%,
+        hsl(211deg 96% 15%) 96%,
+        hsl(211deg 100% 16%) 100%
+    );
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+  }
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+}
+
+
+.header-title{
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-input{
+    background-color: #052D56;
+}
+
+.dark-bg{
+    background-color: #040C18;
+}
+
+.wgpt3{
+  background-image: linear-gradient(
+  135deg,
+  hsl(211deg 78% 49%) 0%,
+  hsl(211deg 78% 47%) 0%,
+  hsl(211deg 78% 46%) 0%,
+  hsl(211deg 78% 44%) 1%,
+  hsl(211deg 78% 42%) 1%,
+  hsl(211deg 78% 40%) 2%,
+  hsl(211deg 78% 38%) 4%,
+  hsl(211deg 78% 36%) 6%,
+  hsl(211deg 78% 34%) 9%,
+  hsl(211deg 78% 32%) 13%,
+  hsl(211deg 78% 29%) 20%,
+  hsl(211deg 78% 27%) 62%,
+  hsl(211deg 78% 29%) 81%,
+  hsl(211deg 78% 32%) 88%,
+  hsl(211deg 78% 34%) 92%,
+  hsl(211deg 78% 36%) 94%,
+  hsl(211deg 78% 38%) 96%,
+  hsl(211deg 78% 40%) 98%,
+  hsl(211deg 78% 42%) 99%,
+  hsl(211deg 78% 44%) 99%,
+  hsl(211deg 78% 46%) 100%,
+  hsl(211deg 78% 47%) 100%,
+  hsl(211deg 78% 49%) 100%
+);
+}
+
+.title-divider{
+  width: 38px;
+  height: 3px;
+  margin-bottom: 15px;
+  background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
+
+.paraph-feature{
+  color: rgba(129, 175, 221, 1);
+  max-width: 731px;
+}
+
+
+.all-features h1{
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 195px;
+}
+
+.all-features p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 334px;
+  word-break:break-all;
+}
+
+.possibil-img{
+  max-height: 607px;
+}
+
+.cta-bg{
+  background-image: linear-gradient(
+    90deg,
+    hsl(269deg 94% 69%) 0%,
+    hsl(327deg 57% 68%) 52%,
+    hsl(21deg 87% 68%) 100%
+  );
+}
+
+@media screen and (min-width: 1024px){
+  .cards-container{
+    height: calc(323.84px + 698.16px + 8px);
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .cards-container{
+    height: 698.16px;
+  }
+}
+
+
+.footer-bg{
+  background-color: #031B34;
+}
